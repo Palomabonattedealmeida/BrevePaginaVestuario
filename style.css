@@ -1,7 +1,47 @@
-title {
-    font-family: 'Dancing Script', cursiva;
-}
-
-h2 {
-    font-family: 'Dancing Script', cursiva;
-}
+body {
+    background-color: #FFFFFF;
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+  }
+  
+  .content {
+    text-align: center;
+    color: #FF99CC;
+    max-width: 50%;
+    margin-right: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #000000;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #FF99CC;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #FF99CC;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
